@@ -19,5 +19,6 @@ from django.conf.urls import include # not included in tutorial
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('polls/', include('polls.urls'))
+    path('polls/', include('polls.urls')),
+    path('groceries_manager/', include('groceries_manager.urls')),
 ]
